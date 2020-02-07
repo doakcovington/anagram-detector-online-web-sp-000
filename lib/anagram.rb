@@ -12,7 +12,7 @@ class Anagram
     #result = []
     #word_array = @word.split("")
     #split each element in the array into individual characters
-    individual_characters = array.select{|word| word.split("").sort == @word.split("").sort}
+    array.select{|word| word.split("").sort == @word.split("").sort}
     #result
   end
 
